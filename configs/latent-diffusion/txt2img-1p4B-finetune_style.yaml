@@ -21,7 +21,7 @@ model:
     personalization_config:
       target: ldm.modules.embedding_manager.EmbeddingManager
       params:
-        placeholder_strings: ["@"]
+        placeholder_strings: ["*"]
         initializer_words: ["painting"]
         per_image_tokens: false
         num_vectors_per_token: 1
